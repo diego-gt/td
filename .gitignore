@@ -1,3 +1,8 @@
+# editor
+.cache
+.vscode
+tags
+
 # build directory
 build*/
 # Prerequisites
