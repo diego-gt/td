@@ -7,8 +7,9 @@ tags*
 # build directory
 build*/
 
+# Tools
 # Compilation database for use with clangd
-compile_commangs.json
+compile_commands.json
 
 # Prerequisites
 *.d
