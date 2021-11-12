@@ -1,10 +1,12 @@
 # editor
 .cache
 .vscode
-tags
+tags*
+.idea
 
 # build directory
 build*/
+
 # Prerequisites
 *.d
 
