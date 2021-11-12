@@ -12,6 +12,11 @@ option(WIN_CLANG "Use clang in windows" ON)
 
 # Targets
 add_executable(td
+	src/Date.hpp
+	src/Date.cpp
+	src/TaskStatus.hpp
+	src/Task.hpp
+	src/Task.cpp
 	src/main.cpp)
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Windows")

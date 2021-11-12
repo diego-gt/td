@@ -7,14 +7,13 @@ project(
 		'cpp_std=c++20'
 	])
 
-public_headers = include_directories('include')
-
 sources = files([
+	'src/Date.cpp',
+	'src/Task.cpp',
   'src/main.cpp'
 ])
 
 executable(
     'td',
     sources,
-    include_directories : public_headers,
 )
